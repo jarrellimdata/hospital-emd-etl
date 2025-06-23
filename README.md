@@ -39,6 +39,7 @@ Each dataset contains historical monthly records, updated as of June 2025.
 - **pgAdmin4**: for SQL queries and inspection
 - **Power BI**: for dashboarding and visual storytelling
 - **Jupyter Notebook / VS Code**: For development
+- **Mermaid Live Editor": For designing Entity Relationship Diagram (ERD)
 
 ---
 
@@ -103,7 +104,8 @@ python pipeline.py
 ## 🗺️ Data Model
 Four tables in PostgreSQL are linked by date and hospital. The main table for analysis is er_summary.
 
-📎 Entity Relationship Diagram (ERD):
+📎 Entity Relationship Diagram (ERD)
+- Created using [Mermaid](mermaid.live) and exported as an image:
 ![mermaid-ERD](https://github.com/user-attachments/assets/9fcb67e2-5e09-498c-bf84-70b6194d98d6)
 
 ---
@@ -157,10 +159,14 @@ This project includes a Power BI dashboard visualizing:
 
 ---
 
-📚 References
+## 📚 References
 - [Ministry of Health, Singapore](https://www.moh.gov.sg/)
 - [Pandas Documentation](https://pandas.pydata.org/docs/)
 - [SQLAlchemy Documentation](https://docs.sqlalchemy.org/en/20/)
 - [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi)
+
+---
+## Acknowledgments:
+This project was built as part of a personal portfolio to demonstrate skills in data engineering and healthcare analytics using open datasets.
 
 
