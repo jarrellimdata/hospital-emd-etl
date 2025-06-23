@@ -44,26 +44,28 @@ Each dataset contains historical monthly records, updated as of June 2025.
 
 ## 🧱 Folder Structure
 
+```
 project-root/
 │
 ├── data/
-│ ├── raw/ # Raw Excel files from MOH
-│ └── processed/ # Cleaned and merged CSVs
+│   ├── raw/              # Raw Excel files from MOH
+│   └── processed/        # Cleaned and merged CSVs
 │
 ├── scripts/
-│ ├── extract_data.py
-│ ├── transform_data.py
-│ └── load_to_postgres.py
+│   ├── extract_data.py
+│   ├── transform_data.py
+│   └── load_to_postgres.py
 │
 ├── sql/
-│ ├── create_tables.sql
-│ ├── alter_tables.sql
-│ └── analysis_queries.sql
+│   ├── create_tables.sql
+│   ├── alter_tables.sql
+│   └── analysis_queries.sql
 │
-├── images/ # ERD or dashboard screenshots
+├── images/               # ERD or dashboard screenshots
 │
-├── pipeline.py # Main orchestrator script
+├── pipeline.py           # Main orchestrator script
 └── README.md
+```
 
 ---
 
@@ -120,21 +122,21 @@ This project includes a Power BI dashboard visualizing:
 
 📎 Note: As the focus of this project is on data engineering, the Power BI dashboard included is intentionally simple. It can be further developed based on business questions, stakeholder needs, and integration of more domain-specific data.
 
-Snapshot: 
+**Snapshot:** 
 ![image](https://github.com/user-attachments/assets/19cfc0c5-fd45-480d-b0e3-0476aa234d11)
 
 [Power BI Live Dashboard](https://app.powerbi.com/reportEmbed?reportId=531764bf-45e1-4dce-843d-5ac2d1f78af6&autoAuth=true&ctid=bd697c1b-c481-479c-841e-c618542675c3)
 
 ---
 
-🚧 Limitations
+## 🚧 Limitations
 - Manual download of Excel files (no APIs available)
 - No real-time processing or orchestration (designed for local batch runs)
 - Dashboard and analysis rely on simplified metrics due to limited context
 
 ---
 
-🚀 Next Steps / Future Work
+## 🚀 Next Steps / Future Work
 ⚙️ Data Engineering & Deployment
 - Enhance data validation and switch from print statements to structured logging
 - Containerize the pipeline using Docker
