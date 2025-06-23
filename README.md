@@ -105,7 +105,7 @@ python pipeline.py
 Four tables in PostgreSQL are linked by date and hospital. The main table for analysis is er_summary.
 
 📎 Entity Relationship Diagram (ERD)
-- Created using [Mermaid](mermaid.live) and exported as an image:
+- Created using [Mermaid Live Editor](mermaid.live) and exported as an image:
 ![mermaid-ERD](https://github.com/user-attachments/assets/9fcb67e2-5e09-498c-bf84-70b6194d98d6)
 
 ---
