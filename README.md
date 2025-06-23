@@ -160,7 +160,7 @@ This project includes a Power BI dashboard visualizing:
 📚 References
 - [Ministry of Health, Singapore](https://www.moh.gov.sg/)
 - [Pandas Documentation](https://pandas.pydata.org/docs/)
-- [SQLAlchemy Documentation](https://docs.sqlalchemy.org/en/20/))
+- [SQLAlchemy Documentation](https://docs.sqlalchemy.org/en/20/)
 - [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi)
 
 
