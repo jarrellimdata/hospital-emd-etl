@@ -39,7 +39,7 @@ Each dataset contains historical monthly records, updated as of June 2025.
 - **pgAdmin4**: for SQL queries and inspection
 - **Power BI**: for dashboarding and visual storytelling
 - **Jupyter Notebook / VS Code**: For development
-- **Mermaid Live Editor": For designing Entity Relationship Diagram (ERD)
+- **Mermaid Live Editor**: For designing Entity Relationship Diagram (ERD)
 
 ---
 
