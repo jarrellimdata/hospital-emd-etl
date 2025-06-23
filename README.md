@@ -81,13 +81,10 @@ python pipeline.py
 ---
 
 ## 🧮 PostgreSQL Tables
-attendances: Monthly patient counts per hospital
-
-wait_times: Median wait time to be admitted to ward
-
-bed_occupancy: Monthly bed occupancy percentage
-
-er_summary: Combined view of all three datasets
+- attendances: Monthly patient counts per hospital
+- wait_times: Median wait time to be admitted to ward
+- bed_occupancy: Monthly bed occupancy percentage
+- er_summary: Combined view of all three datasets
 
 ---
 
@@ -114,7 +111,7 @@ Four tables in PostgreSQL are linked by date and hospital. The main table for an
 
 ---
 
-##📊 Power BI Dashboard
+## 📊 Power BI Dashboard
 This project includes a Power BI dashboard visualizing:
 - Monthly trends by hospital
 - Efficiency metrics like average wait time
@@ -122,6 +119,11 @@ This project includes a Power BI dashboard visualizing:
 - Correlation analysis between variables
 
 📎 Note: As the focus of this project is on data engineering, the Power BI dashboard included is intentionally simple. It can be further developed based on business questions, stakeholder needs, and integration of more domain-specific data.
+
+Snapshot: 
+![image](https://github.com/user-attachments/assets/19cfc0c5-fd45-480d-b0e3-0476aa234d11)
+
+[Power BI Live Dashboard](https://app.powerbi.com/reportEmbed?reportId=531764bf-45e1-4dce-843d-5ac2d1f78af6&autoAuth=true&ctid=bd697c1b-c481-479c-841e-c618542675c3)
 
 ---
 
@@ -133,11 +135,20 @@ This project includes a Power BI dashboard visualizing:
 ---
 
 🚀 Next Steps / Future Work
+⚙️ Data Engineering & Deployment
+- Enhance data validation and switch from print statements to structured logging
+- Containerize the pipeline using Docker
 - Add Airflow orchestration for automated scheduling
-- Uontainerize pipeline with Docker
-- Integrate anomaly detection or alerting
-- Implement cloud migration (Azure or AWS) for scalability
-- - Add unit tests and logging
+- Explore cloud deployment (e.g. Azure, AWS)
+
+📊 Analytics & Power BI
+- Integrate anomaly detection and additional KPIs
+- Explore hospital cluster-level metrics
+- Improve dashboard visuals and interactivity
+- Document key DAX measures used
+
+🧠 Stakeholder Collaboration
+- Consult healthcare domain experts to refine metrics and identify actionable insights
 
 ---
 
