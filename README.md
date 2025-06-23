@@ -61,10 +61,13 @@ project-root/
 │   ├── alter_tables.sql
 │   └── analysis_queries.sql
 │
-├── images/               # ERD or dashboard screenshots
+├── dashboard/            # Power BI (.pbix) file and screenshots
+│
+├── diagrams/             # ERD or architecture diagram images
 │
 ├── pipeline.py           # Main orchestrator script
-└── README.md
+└── README.md             # Project documentation
+         
 ```
 
 ---
