@@ -35,7 +35,7 @@ Each dataset contains historical monthly records, updated as of June 2025.
 ## 🧰 Tools and Technologies
 
 - **Python**: pandas, sqlalchemy
-- **PostgreSQL**: for storing processed datasets
+- **PostgreSQL**: for storing raw and processed datasets
 - **pgAdmin4**: for SQL queries and inspection
 - **Power BI**: for dashboarding and visual storytelling
 - **Jupyter Notebook / VS Code**: For development
