@@ -43,6 +43,7 @@ Each dataset contains historical monthly records, updated as of June 2025.
 ---
 
 ## 🧱 Folder Structure
+
 project-root/
 │
 ├── data/
@@ -75,6 +76,7 @@ project-root/
 
 ```bash
 python pipeline.py
+```
 
 ---
 
@@ -90,11 +92,9 @@ er_summary: Combined view of all three datasets
 ---
 
 ## 🧾 SQL Utilities
-create_tables.sql: Defines the base tables
-
-alter_tables.sql: Refines data types (e.g. round float → int or decimal)
-
-analysis_queries.sql: Sample queries to analyze trends and correlations
+- create_tables.sql: Defines the base tables
+- alter_tables.sql: Refines data types (e.g., round float → int or decimal)
+- analysis_queries.sql: Sample queries to analyze trends and correlations
 
 ---
 
@@ -102,7 +102,7 @@ analysis_queries.sql: Sample queries to analyze trends and correlations
 Four tables in PostgreSQL are linked by date and hospital. The main table for analysis is er_summary.
 
 📎 Entity Relationship Diagram (ERD):
-diagrams/mermaid-ERD.png
+![mermaid-ERD](https://github.com/user-attachments/assets/9fcb67e2-5e09-498c-bf84-70b6194d98d6)
 
 ---
 
@@ -126,43 +126,25 @@ This project includes a Power BI dashboard visualizing:
 ---
 
 🚧 Limitations
-Manual download of Excel files (no APIs available)
-
-No real-time processing or orchestration (designed for local batch runs)
-
-Dashboard and analysis rely on simplified metrics due to limited context
+- Manual download of Excel files (no APIs available)
+- No real-time processing or orchestration (designed for local batch runs)
+- Dashboard and analysis rely on simplified metrics due to limited context
 
 ---
-
 
 🚀 Next Steps / Future Work
-Add Airflow orchestration for automated scheduling
-
-Use Docker to containerize the pipeline
-
-Integrate anomaly detection or alerting
-
-Consider cloud migration (Azure or AWS) for scalability
+- Add Airflow orchestration for automated scheduling
+- Uontainerize pipeline with Docker
+- Integrate anomaly detection or alerting
+- Implement cloud migration (Azure or AWS) for scalability
+- - Add unit tests and logging
 
 ---
 
-🔮 Next Steps
-Containerize pipeline with Docker
-
-Add unit tests and logging
-
-Document DAX measures used in Power BI
-
-Share insights with healthcare stakeholders
-
 📚 References
-Ministry of Health, Singapore
-
-pandas documentation
-
-SQLAlchemy documentation
-
-Power BI
-
+- [Ministry of Health, Singapore](https://www.moh.gov.sg/)
+- [Pandas Documentation](https://pandas.pydata.org/docs/)
+- [SQLAlchemy Documentation](https://docs.sqlalchemy.org/en/20/))
+- [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi)
 
 
