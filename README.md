@@ -108,14 +108,6 @@ Four tables in PostgreSQL are linked by date and hospital. The main table for an
 
 ---
 
-## 📈 Results / Findings
-- Cleaned and merged >20,000 rows of hospital data
-- Structured datasets for consistent monthly trend analysis
-- Derived metrics like rolling 3-month averages, wait time trends, and correlation between occupancy and wait time
-- Built SQL queries for downstream exploration and reporting
-
----
-
 ## 📊 Power BI Dashboard
 This project includes a Power BI dashboard visualizing:
 - Monthly trends by hospital
@@ -129,6 +121,14 @@ This project includes a Power BI dashboard visualizing:
 ![image](https://github.com/user-attachments/assets/19cfc0c5-fd45-480d-b0e3-0476aa234d11)
 
 [Power BI Live Dashboard](https://app.powerbi.com/reportEmbed?reportId=531764bf-45e1-4dce-843d-5ac2d1f78af6&autoAuth=true&ctid=bd697c1b-c481-479c-841e-c618542675c3)
+
+---
+
+## 📈 Results / Findings
+- Cleaned and merged >20,000 rows of hospital data
+- Structured datasets for consistent monthly trend analysis
+- Derived metrics like rolling 3-month averages, wait time trends, and correlation between occupancy and wait time
+- Built SQL queries for downstream exploration and reporting
 
 ---
 
