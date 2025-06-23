@@ -24,9 +24,9 @@ The goal is to support data-driven hospital operations by enabling consistent re
 
 Data was sourced from the Ministry of Health (MOH), Singapore:
 
-- [Attendances at Emergency Medicine Departments](https://www.moh.gov.sg/resources-statistics/singapore-health-facts/emergency-departments)
-- [Waiting Time for Admission to Ward](https://www.moh.gov.sg/resources-statistics/performance-indicators/waiting-time-for-admission)
-- [Bed Occupancy Rate (BOR)](https://www.moh.gov.sg/resources-statistics/singapore-health-facts/beds)
+- [Attendances at Emergency Medicine Departments](https://www.moh.gov.sg/others/resources-and-statistics/healthcare-institution-statistics-attendances-at-emergency-medicine-departments)
+- [Waiting Time for Admission to Ward](https://www.moh.gov.sg/others/resources-and-statistics/healthcare-institution-statistics-waiting-time-for-admission-to-ward)
+- [Bed Occupancy Rate (BOR)](https://www.moh.gov.sg/others/resources-and-statistics/healthcare-institution-statistics-beds-occupancy-rate-(bor))
 
 Each dataset contains historical monthly records, updated as of June 2025. 
 
