@@ -28,7 +28,7 @@ Data was sourced from the Ministry of Health (MOH), Singapore:
 - [Waiting Time for Admission to Ward](https://www.moh.gov.sg/others/resources-and-statistics/healthcare-institution-statistics-waiting-time-for-admission-to-ward)
 - [Bed Occupancy Rate (BOR)](https://www.moh.gov.sg/others/resources-and-statistics/healthcare-institution-statistics-beds-occupancy-rate-(bor))
 
-Each dataset contains historical monthly records, updated as of June 2025. 
+Each dataset contains historical monthly records, updated as of July 2025. 
 
 ---
 
