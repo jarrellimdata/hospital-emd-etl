@@ -1,0 +1,282 @@
+2025-07-07 20:10:11,721 [INFO] ETL pipeline started
+2025-07-07 20:10:11,730 [INFO] Extracting attendances data from data/raw/Attendances at EMD_week24Y2025.xlsx
+2025-07-07 20:10:12,093 [INFO] attendances data shape: (889, 10)
+2025-07-07 20:10:12,093 [INFO] Extracting wait_time data from data/raw/WT for Admission to Ward_week24Y2025.xlsx
+2025-07-07 20:10:12,146 [INFO] wait_time data shape: (889, 10)
+2025-07-07 20:10:12,146 [INFO] Extracting bor data from data/raw/Bed Occupancy Rate_week24Y2025.xlsx
+2025-07-07 20:10:12,270 [INFO] bor data shape: (2715, 11)
+2025-07-07 20:10:12,270 [INFO] Cleaning attendances data
+2025-07-07 20:10:12,290 [INFO] attendances cleaned data shape: (7462, 3)
+2025-07-07 20:10:12,290 [INFO] Cleaning wait_time data
+2025-07-07 20:10:12,298 [INFO] wait_time cleaned data shape: (7462, 3)
+2025-07-07 20:10:12,298 [INFO] Cleaning bor data
+2025-07-07 20:10:12,311 [INFO] bor cleaned data shape: (21847, 3)
+2025-07-07 20:10:12,311 [INFO] Merging datasets
+2025-07-07 20:10:12,326 [INFO] Merged data shape: (21847, 5)
+2025-07-07 20:10:12,414 [INFO] Cleaned data saved to CSV
+2025-07-07 20:10:13,637 [INFO] Tables loaded to PostgreSQL
+2025-07-07 20:10:13,637 [INFO] Data loaded into PostgreSQL successfully
+2025-07-07 20:10:13,637 [INFO] ETL pipeline completed successfully
+2025-07-07 20:16:28,443 [INFO] ETL pipeline started
+2025-07-07 20:16:28,444 [INFO] Extracting attendances data from data/raw/Attendances at EMD_week24Y2025.xlsx
+2025-07-07 20:16:28,657 [INFO] attendances data shape: (889, 10)
+2025-07-07 20:16:28,657 [INFO] Extracting wait_time data from data/raw/WT for Admission to Ward_week24Y2025.xlsx
+2025-07-07 20:16:28,704 [INFO] wait_time data shape: (889, 10)
+2025-07-07 20:16:28,704 [INFO] Extracting bor data from data/raw/Bed Occupancy Rate_week24Y2025.xlsx
+2025-07-07 20:16:28,824 [INFO] bor data shape: (2715, 11)
+2025-07-07 20:16:28,824 [INFO] Cleaning attendances data
+2025-07-07 20:16:28,834 [INFO] attendances cleaned data shape: (7462, 3)
+2025-07-07 20:16:28,834 [INFO] Cleaning wait_time data
+2025-07-07 20:16:28,842 [INFO] wait_time cleaned data shape: (7462, 3)
+2025-07-07 20:16:28,842 [INFO] Cleaning bor data
+2025-07-07 20:16:28,857 [INFO] bor cleaned data shape: (21847, 3)
+2025-07-07 20:16:28,857 [INFO] Merging datasets
+2025-07-07 20:16:28,869 [INFO] Merged data shape: (21847, 5)
+2025-07-07 20:16:28,969 [INFO] Cleaned data saved to CSV
+2025-07-07 20:16:30,038 [INFO] Tables loaded to PostgreSQL
+2025-07-07 20:16:30,039 [INFO] Data loaded into PostgreSQL successfully
+2025-07-07 20:16:30,039 [INFO] ETL pipeline completed successfully
+2025-07-07 20:44:28,701 [INFO] ETL pipeline started
+2025-07-07 20:44:28,702 [INFO] Extracting attendances data from data/raw/Attendances at EMD_week24Y2025.xlsx
+2025-07-07 20:44:28,923 [INFO] attendances data shape: (889, 10)
+2025-07-07 20:44:28,924 [INFO] Extracting wait_time data from data/raw/WT for Admission to Ward_week24Y2025.xlsx
+2025-07-07 20:44:28,970 [INFO] wait_time data shape: (889, 10)
+2025-07-07 20:44:28,970 [INFO] Extracting bor data from data/raw/Bed Occupancy Rate_week24Y2025.xlsx
+2025-07-07 20:44:29,086 [INFO] bor data shape: (2715, 11)
+2025-07-07 20:44:29,086 [INFO] Data extraction completed successfully
+2025-07-07 20:44:29,087 [INFO] Cleaning attendances data
+2025-07-07 20:44:29,096 [INFO] attendances cleaned data shape: (7462, 3)
+2025-07-07 20:44:29,096 [INFO] Cleaning wait_time data
+2025-07-07 20:44:29,105 [INFO] wait_time cleaned data shape: (7462, 3)
+2025-07-07 20:44:29,105 [INFO] Cleaning bor data
+2025-07-07 20:44:29,120 [INFO] bor cleaned data shape: (21847, 3)
+2025-07-07 20:44:29,120 [INFO] Merging datasets
+2025-07-07 20:44:29,135 [INFO] Merged data shape: (21847, 5)
+2025-07-07 20:44:29,227 [INFO] Cleaned data saved to CSV
+2025-07-07 20:44:30,170 [INFO] Tables loaded to PostgreSQL
+2025-07-07 20:44:30,170 [INFO] Data loaded into PostgreSQL successfully
+2025-07-07 20:44:30,171 [INFO] ETL pipeline completed successfully
+2025-07-07 20:55:11,120 [INFO] ETL pipeline started
+2025-07-07 20:55:11,121 [INFO] Extracting attendances data from data/raw/Attendances at EMD_week24Y2025.xlsx
+2025-07-07 20:55:11,336 [INFO] attendances data shape: (889, 10)
+2025-07-07 20:55:11,336 [INFO] Extracting wait_time data from data/raw/WT for Admission to Ward_week24Y2025.xlsx
+2025-07-07 20:55:11,386 [INFO] wait_time data shape: (889, 10)
+2025-07-07 20:55:11,386 [INFO] Extracting bor data from data/raw/Bed Occupancy Rate_week24Y2025.xlsx
+2025-07-07 20:55:11,506 [INFO] bor data shape: (2715, 11)
+2025-07-07 20:55:11,507 [INFO] Cleaning attendances data
+2025-07-07 20:55:11,518 [INFO] attendances cleaned data shape: (7462, 3)
+2025-07-07 20:55:11,519 [INFO] Cleaning wait_time data
+2025-07-07 20:55:11,526 [INFO] wait_time cleaned data shape: (7462, 3)
+2025-07-07 20:55:11,527 [INFO] Cleaning bor data
+2025-07-07 20:55:11,543 [INFO] bor cleaned data shape: (21847, 3)
+2025-07-07 20:55:11,543 [INFO] Merging datasets
+2025-07-07 20:55:11,556 [INFO] Merged data shape: (21847, 5)
+2025-07-07 20:55:11,651 [INFO] Cleaned data saved to CSV
+2025-07-07 20:55:12,580 [INFO] Tables loaded to PostgreSQL
+2025-07-07 20:55:12,580 [INFO] Data loaded into PostgreSQL successfully
+2025-07-07 20:55:12,580 [INFO] ETL pipeline completed successfully
+2025-07-07 21:08:06,977 [INFO] ETL pipeline started
+2025-07-07 21:08:06,978 [INFO] Extracting attendances data from data/raw/Attendances at EMD_week24Y2025.xlsx
+2025-07-07 21:08:07,184 [INFO] attendances data shape: (889, 10)
+2025-07-07 21:08:07,184 [INFO] Extracting wait_time data from data/raw/WT for Admission to Ward_week24Y2025.xlsx
+2025-07-07 21:08:07,229 [INFO] wait_time data shape: (889, 10)
+2025-07-07 21:08:07,229 [INFO] Extracting bor data from data/raw/Bed Occupancy Rate_week24Y2025.xlsx
+2025-07-07 21:08:07,353 [INFO] bor data shape: (2715, 11)
+2025-07-07 21:08:07,371 [INFO] Cleaning attendances data
+2025-07-07 21:08:07,385 [INFO] attendances cleaned data shape: (7462, 3)
+2025-07-07 21:08:07,386 [INFO] Cleaning wait_time data
+2025-07-07 21:08:07,395 [INFO] wait_time cleaned data shape: (7462, 3)
+2025-07-07 21:08:07,395 [INFO] Cleaning bor data
+2025-07-07 21:08:07,408 [INFO] bor cleaned data shape: (21847, 3)
+2025-07-07 21:08:07,410 [INFO] Merging datasets
+2025-07-07 21:08:07,422 [INFO] Merged data shape: (21847, 5)
+2025-07-07 21:08:08,467 [INFO] ETL pipeline completed successfully
+2025-07-07 21:10:09,870 [INFO] ETL pipeline started
+2025-07-07 21:10:09,871 [INFO] Extracting attendances data from data/raw/Attendances at EMD_week24Y2025.xlsx
+2025-07-07 21:10:10,071 [INFO] attendances data shape: (889, 10)
+2025-07-07 21:10:10,072 [INFO] Extracting wait_time data from data/raw/WT for Admission to Ward_week24Y2025.xlsx
+2025-07-07 21:10:10,116 [INFO] wait_time data shape: (889, 10)
+2025-07-07 21:10:10,116 [INFO] Extracting bor data from data/raw/Bed Occupancy Rate_week24Y2025.xlsx
+2025-07-07 21:10:10,237 [INFO] bor data shape: (2715, 11)
+2025-07-07 21:10:10,237 [INFO] Data extraction completed successfully
+2025-07-07 21:10:10,237 [INFO] Cleaning attendances data
+2025-07-07 21:10:10,248 [INFO] attendances cleaned data shape: (7462, 3)
+2025-07-07 21:10:10,249 [INFO] Cleaning wait_time data
+2025-07-07 21:10:10,256 [INFO] wait_time cleaned data shape: (7462, 3)
+2025-07-07 21:10:10,256 [INFO] Cleaning bor data
+2025-07-07 21:10:10,270 [INFO] bor cleaned data shape: (21847, 3)
+2025-07-07 21:10:10,270 [INFO] Data transformation completed successfully
+2025-07-07 21:10:10,270 [INFO] Merging datasets
+2025-07-07 21:10:10,282 [INFO] Merged data shape: (21847, 5)
+2025-07-07 21:10:10,282 [INFO] Merging completed successfully
+2025-07-07 21:10:10,381 [INFO] Cleaned data saved to CSV
+2025-07-07 21:10:11,294 [INFO] Data loaded into PostgreSQL successfully
+2025-07-07 21:10:11,294 [INFO] ETL pipeline completed successfully
+2025-07-07 21:27:49,925 [INFO] ETL pipeline started
+2025-07-07 21:27:49,926 [INFO] Extracting attendances data from data/raw/Attendances at EMD_week24Y2025.xlsx
+2025-07-07 21:27:50,138 [INFO] attendances data shape: (889, 10)
+2025-07-07 21:27:50,138 [INFO] Extracting wait_time data from data/raw/WT for Admission to Ward_week24Y2025.xlsx
+2025-07-07 21:27:50,182 [INFO] wait_time data shape: (889, 10)
+2025-07-07 21:27:50,183 [INFO] Extracting bor data from data/raw/Bed Occupancy Rate_week24Y2025.xlsx
+2025-07-07 21:27:50,301 [INFO] bor data shape: (2715, 11)
+2025-07-07 21:27:50,301 [INFO] Data extraction completed successfully
+2025-07-07 21:27:50,302 [INFO] Cleaning attendances data
+2025-07-07 21:27:50,311 [INFO] attendances cleaned data shape: (7462, 3)
+2025-07-07 21:27:50,311 [INFO] Cleaning wait_time data
+2025-07-07 21:27:50,319 [INFO] wait_time cleaned data shape: (7462, 3)
+2025-07-07 21:27:50,320 [INFO] Cleaning bor data
+2025-07-07 21:27:50,332 [INFO] bor cleaned data shape: (21847, 3)
+2025-07-07 21:27:50,332 [INFO] Data transformation completed successfully
+2025-07-07 21:27:50,332 [INFO] Merging datasets
+2025-07-07 21:27:50,343 [INFO] Merged data shape: (21847, 5)
+2025-07-07 21:27:50,344 [INFO] Merging completed successfully
+2025-07-07 21:27:50,434 [INFO] Cleaned data saved to CSV
+2025-07-07 21:27:51,380 [INFO] Data loaded into PostgreSQL successfully
+2025-07-07 21:27:51,380 [INFO] ETL pipeline completed successfully
+2025-07-07 21:34:56,161 [INFO] ETL pipeline started
+2025-07-07 21:34:56,375 [INFO] attendances data shape: (889, 10)
+2025-07-07 21:34:56,420 [INFO] wait_time data shape: (889, 10)
+2025-07-07 21:34:56,538 [INFO] bor data shape: (2715, 11)
+2025-07-07 21:34:56,539 [INFO] Data extraction completed successfully
+2025-07-07 21:34:56,539 [INFO] Cleaning attendances data
+2025-07-07 21:34:56,549 [INFO] attendances cleaned data shape: (7462, 3)
+2025-07-07 21:34:56,549 [INFO] Cleaning wait_time data
+2025-07-07 21:34:56,561 [INFO] wait_time cleaned data shape: (7462, 3)
+2025-07-07 21:34:56,561 [INFO] Cleaning bor data
+2025-07-07 21:34:56,574 [INFO] bor cleaned data shape: (21847, 3)
+2025-07-07 21:34:56,574 [INFO] Data transformation completed successfully
+2025-07-07 21:34:56,574 [INFO] Merging datasets
+2025-07-07 21:34:56,587 [INFO] Merged data shape: (21847, 5)
+2025-07-07 21:34:56,587 [INFO] Merging completed successfully
+2025-07-07 21:34:56,678 [INFO] Cleaned data saved to CSV
+2025-07-07 21:34:57,645 [INFO] Data loaded into PostgreSQL successfully
+2025-07-07 21:34:57,645 [INFO] ETL pipeline completed successfully
+2025-07-07 21:35:24,665 [INFO] ETL pipeline started
+2025-07-07 21:35:24,872 [INFO] attendances data shape: (889, 10)
+2025-07-07 21:35:24,919 [INFO] wait_time data shape: (889, 10)
+2025-07-07 21:35:25,039 [INFO] bor data shape: (2715, 11)
+2025-07-07 21:35:25,041 [INFO] Data extraction completed successfully
+2025-07-07 21:35:25,041 [INFO] Cleaning attendances data
+2025-07-07 21:35:25,053 [INFO] attendances cleaned data shape: (7462, 3)
+2025-07-07 21:35:25,053 [INFO] Cleaning wait_time data
+2025-07-07 21:35:25,062 [INFO] wait_time cleaned data shape: (7462, 3)
+2025-07-07 21:35:25,062 [INFO] Cleaning bor data
+2025-07-07 21:35:25,077 [INFO] bor cleaned data shape: (21847, 3)
+2025-07-07 21:35:25,077 [INFO] Data transformation completed successfully
+2025-07-07 21:35:25,078 [INFO] Merging datasets
+2025-07-07 21:35:25,089 [INFO] Merged data shape: (21847, 5)
+2025-07-07 21:35:25,090 [INFO] Merging completed successfully
+2025-07-07 21:35:25,179 [INFO] Cleaned data saved to CSV
+2025-07-07 21:35:26,085 [INFO] Data loaded into PostgreSQL successfully
+2025-07-07 21:35:26,085 [INFO] ETL pipeline completed successfully
+2025-07-07 21:35:45,575 [INFO] ETL pipeline started
+2025-07-07 21:35:45,781 [INFO] attendances data shape: (889, 10)
+2025-07-07 21:35:45,829 [INFO] wait_time data shape: (889, 10)
+2025-07-07 21:35:45,954 [INFO] bor data shape: (2715, 11)
+2025-07-07 21:35:45,956 [INFO] Data extraction completed successfully
+2025-07-07 21:35:45,956 [INFO] Cleaning attendances data
+2025-07-07 21:35:45,966 [INFO] attendances cleaned data shape: (7462, 3)
+2025-07-07 21:35:45,966 [INFO] Cleaning wait_time data
+2025-07-07 21:35:45,975 [INFO] wait_time cleaned data shape: (7462, 3)
+2025-07-07 21:35:45,975 [INFO] Cleaning bor data
+2025-07-07 21:35:45,991 [INFO] bor cleaned data shape: (21847, 3)
+2025-07-07 21:35:45,991 [INFO] Data transformation completed successfully
+2025-07-07 21:35:45,991 [INFO] Merging datasets
+2025-07-07 21:35:46,004 [INFO] Merged data shape: (21847, 5)
+2025-07-07 21:35:46,004 [INFO] Merging completed successfully
+2025-07-07 21:35:46,094 [INFO] Cleaned data saved to CSV
+2025-07-07 21:35:47,025 [INFO] Data loaded into PostgreSQL successfully
+2025-07-07 21:35:47,025 [INFO] ETL pipeline completed successfully
+2025-07-07 21:36:29,941 [INFO] ETL pipeline started
+2025-07-07 21:36:30,145 [INFO] attendances data shape: (889, 10)
+2025-07-07 21:36:30,195 [INFO] wait_time data shape: (889, 10)
+2025-07-07 21:36:30,316 [INFO] bor data shape: (2715, 11)
+2025-07-07 21:36:30,318 [INFO] Data extraction completed successfully
+2025-07-07 21:36:30,318 [INFO] Cleaning attendances data
+2025-07-07 21:36:30,328 [INFO] attendances cleaned data shape: (7462, 3)
+2025-07-07 21:36:30,328 [INFO] Cleaning wait_time data
+2025-07-07 21:36:30,339 [INFO] wait_time cleaned data shape: (7462, 3)
+2025-07-07 21:36:30,339 [INFO] Cleaning bor data
+2025-07-07 21:36:30,353 [INFO] bor cleaned data shape: (21847, 3)
+2025-07-07 21:36:30,353 [INFO] Data transformation completed successfully
+2025-07-07 21:36:30,353 [INFO] Merging datasets
+2025-07-07 21:36:30,365 [INFO] Merged data shape: (21847, 5)
+2025-07-07 21:36:30,365 [INFO] Merging completed successfully
+2025-07-07 21:36:30,466 [INFO] Cleaned data saved to CSV
+2025-07-07 21:36:31,366 [INFO] Data loaded into PostgreSQL successfully
+2025-07-07 21:36:31,366 [INFO] ETL pipeline completed successfully
+2025-07-07 21:37:17,142 [INFO] ETL pipeline started
+2025-07-07 21:37:17,143 [INFO] Extracting attendances data from data/raw/Attendances at EMD_week24Y2025.xlsx
+2025-07-07 21:37:17,342 [INFO] attendances data shape: (889, 10)
+2025-07-07 21:37:17,342 [INFO] Extracting wait_time data from data/raw/WT for Admission to Ward_week24Y2025.xlsx
+2025-07-07 21:37:17,387 [INFO] wait_time data shape: (889, 10)
+2025-07-07 21:37:17,387 [INFO] Extracting bor data from data/raw/Bed Occupancy Rate_week24Y2025.xlsx
+2025-07-07 21:37:17,500 [INFO] bor data shape: (2715, 11)
+2025-07-07 21:37:17,501 [INFO] Data extraction completed successfully
+2025-07-07 21:37:17,501 [INFO] Cleaning attendances data
+2025-07-07 21:37:17,512 [INFO] attendances cleaned data shape: (7462, 3)
+2025-07-07 21:37:17,512 [INFO] Cleaning wait_time data
+2025-07-07 21:37:17,521 [INFO] wait_time cleaned data shape: (7462, 3)
+2025-07-07 21:37:17,521 [INFO] Cleaning bor data
+2025-07-07 21:37:17,537 [INFO] bor cleaned data shape: (21847, 3)
+2025-07-07 21:37:17,537 [INFO] Data transformation completed successfully
+2025-07-07 21:37:17,537 [INFO] Merging datasets
+2025-07-07 21:37:17,550 [INFO] Merged data shape: (21847, 5)
+2025-07-07 21:37:17,550 [INFO] Merging completed successfully
+2025-07-07 21:37:17,638 [INFO] Cleaned data saved to CSV
+2025-07-07 21:37:18,541 [INFO] Data loaded into PostgreSQL successfully
+2025-07-07 21:37:18,541 [INFO] ETL pipeline completed successfully
+2025-07-07 21:41:45,323 [INFO] ETL pipeline started
+2025-07-07 21:41:45,324 [INFO] Extracting attendances data from data/raw/Attendances at EMD_week24Y2025.xlsx
+2025-07-07 21:41:45,531 [INFO] Validating attendances data columns: {'TTSH', 'WH', 'AH', 'SKH', 'Date', 'NUH(A)', 'SGH', 'CGH', 'KTPH', 'NTFGH'}
+2025-07-07 21:41:45,531 [INFO] attendances schema validation passed
+2025-07-07 21:41:45,532 [INFO] attendances data shape: (889, 10)
+2025-07-07 21:41:45,532 [INFO] Extracting wait_time data from data/raw/WT for Admission to Ward_week24Y2025.xlsx
+2025-07-07 21:41:45,577 [INFO] Validating wait_time data columns: {'TTSH', 'WH', 'AH', 'SKH', 'Date', 'NUH(A)', 'SGH', 'CGH', 'KTPH', 'NTFGH'}
+2025-07-07 21:41:45,577 [INFO] wait_time schema validation passed
+2025-07-07 21:41:45,577 [INFO] wait_time data shape: (889, 10)
+2025-07-07 21:41:45,577 [INFO] Extracting bor data from data/raw/Bed Occupancy Rate_week24Y2025.xlsx
+2025-07-07 21:41:45,694 [INFO] Validating bor data columns: {'TTSH', 'WH', 'AH', 'SKH', 'Years', 'Date', 'NUH(A)', 'SGH', 'CGH', 'KTPH', 'NTFGH'}
+2025-07-07 21:41:45,694 [INFO] bor schema validation passed
+2025-07-07 21:41:45,695 [INFO] bor data shape: (2715, 11)
+2025-07-07 21:41:45,695 [INFO] Data extraction completed successfully
+2025-07-07 21:41:45,695 [INFO] Cleaning attendances data
+2025-07-07 21:41:45,708 [INFO] attendances cleaned data shape: (7462, 3)
+2025-07-07 21:41:45,709 [INFO] Cleaning wait_time data
+2025-07-07 21:41:45,718 [INFO] wait_time cleaned data shape: (7462, 3)
+2025-07-07 21:41:45,718 [INFO] Cleaning bor data
+2025-07-07 21:41:45,730 [INFO] bor cleaned data shape: (21847, 3)
+2025-07-07 21:41:45,731 [INFO] Data transformation completed successfully
+2025-07-07 21:41:45,731 [INFO] Merging datasets
+2025-07-07 21:41:45,742 [INFO] Merged data shape: (21847, 5)
+2025-07-07 21:41:45,742 [INFO] Merging completed successfully
+2025-07-07 21:41:45,832 [INFO] Cleaned data saved to CSV
+2025-07-07 21:41:46,737 [INFO] Data loaded into PostgreSQL successfully
+2025-07-07 21:41:46,737 [INFO] ETL pipeline completed successfully
+2025-07-07 21:43:20,642 [INFO] ETL pipeline started
+2025-07-07 21:43:20,643 [INFO] Extracting attendances data from data/raw/Attendances at EMD_week24Y2025.xlsx
+2025-07-07 21:43:20,845 [INFO] Validating attendances data columns: {'SGH', 'Date', 'SKH', 'KTPH', 'NTFGH', 'NUH(A)', 'TTSH', 'AH', 'WH', 'CGH'}
+2025-07-07 21:43:20,845 [INFO] attendances schema validation passed
+2025-07-07 21:43:20,846 [INFO] attendances data shape: (889, 10)
+2025-07-07 21:43:20,846 [INFO] Extracting wait_time data from data/raw/WT for Admission to Ward_week24Y2025.xlsx
+2025-07-07 21:43:20,887 [INFO] Validating wait_time data columns: {'SGH', 'Date', 'SKH', 'KTPH', 'NTFGH', 'NUH(A)', 'TTSH', 'AH', 'WH', 'CGH'}
+2025-07-07 21:43:20,887 [INFO] wait_time schema validation passed
+2025-07-07 21:43:20,887 [INFO] wait_time data shape: (889, 10)
+2025-07-07 21:43:20,887 [INFO] Extracting bor data from data/raw/Bed Occupancy Rate_week24Y2025.xlsx
+2025-07-07 21:43:21,007 [INFO] Validating bor data columns: {'Years', 'SGH', 'Date', 'SKH', 'KTPH', 'NTFGH', 'NUH(A)', 'TTSH', 'AH', 'WH', 'CGH'}
+2025-07-07 21:43:21,007 [INFO] bor schema validation passed
+2025-07-07 21:43:21,007 [INFO] bor data shape: (2715, 11)
+2025-07-07 21:43:21,008 [INFO] Data extraction completed successfully
+2025-07-07 21:43:21,008 [INFO] Cleaning attendances data
+2025-07-07 21:43:21,019 [INFO] attendances cleaned data shape: (7462, 3)
+2025-07-07 21:43:21,019 [INFO] Cleaning wait_time data
+2025-07-07 21:43:21,028 [INFO] wait_time cleaned data shape: (7462, 3)
+2025-07-07 21:43:21,028 [INFO] Cleaning bor data
+2025-07-07 21:43:21,044 [INFO] bor cleaned data shape: (21847, 3)
+2025-07-07 21:43:21,044 [INFO] Data transformation completed successfully
+2025-07-07 21:43:21,044 [INFO] Merging datasets
+2025-07-07 21:43:21,056 [INFO] Merged data shape: (21847, 5)
+2025-07-07 21:43:21,056 [INFO] Merging completed successfully
+2025-07-07 21:43:21,143 [INFO] Cleaned data saved to CSV
+2025-07-07 21:43:22,080 [INFO] Data loaded into PostgreSQL successfully
+2025-07-07 21:43:22,081 [INFO] ETL pipeline completed successfully

@@ -1,0 +1,9 @@
+# config_template.yaml
+# Template for future configuration files
+
+raw_data_dir: data/raw
+processed_data_dir: data/processed
+data_paths:
+  attendances: Attendances at EMD_week24Y2025.xlsx
+  wait_time: WT for Admission to Ward_week24Y2025.xlsx
+  bor: Bed Occupancy Rate_week24Y2025.xlsx

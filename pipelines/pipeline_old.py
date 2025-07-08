@@ -7,6 +7,29 @@ import os
 # Includes basic logging and error handling at each step
 
 def run_pipeline():
+    # try:
+    #     print("\n📥 Data extraction in progress...")
+
+    #     # Call the extract_data() function which returns a dictionary of DataFrames
+    #     dfs = extract_data()
+
+    #     # Unpack individual DataFrames from the dictionary for easier access in pipeline
+    #     attendances_df = dfs["attendances"]
+    #     wait_time_df = dfs["wait_time"]
+    #     bor_df = dfs["bor"]
+
+    #     # Print shape and columns info for quick sanity check
+    #     print("\n✅ Data extracted successfully:")
+    #     print(f"Attendances shape: {attendances_df.shape}, Columns: {attendances_df.columns.tolist()}")
+    #     print(f"Wait time shape: {wait_time_df.shape}, Columns: {wait_time_df.columns.tolist()}")
+    #     print(f"BOR shape: {bor_df.shape}, Columns: {bor_df.columns.tolist()}")
+
+    # except Exception as e:
+    #     # Catch and log any extraction errors, then abort pipeline
+    #     print(f"❌ Failed during data extraction: {e}")
+    #     return
+    
+    
     # Step 1: Call extract_data() to load raw Excel files into DataFrames
     try:
         print("\n📥 Data extraction in progress...")

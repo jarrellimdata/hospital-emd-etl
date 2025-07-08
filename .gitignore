@@ -1,0 +1,19 @@
+# .gitignore
+
+# Ignore Python virtual environment
+.venv/
+venv/
+
+# Ignore environment files
+.env
+config.yaml # already have config
+
+# Ignore Excel temporary lock files
+~$*
+
+# Ignore test data or other temp folders
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
