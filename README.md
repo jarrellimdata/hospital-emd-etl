@@ -46,28 +46,49 @@ Each dataset contains historical monthly records, updated as of July 2025.
 ## 🧱 Folder Structure
 
 ```
-project-root/
-│
+hospital-emd-etl/
 ├── data/
-│   ├── raw/              # Raw Excel files from MOH
-│   └── processed/        # Cleaned and merged CSVs
-│
+│   ├── raw/                      # Raw Excel files from MOH
+│   └── processed/                # Cleaned and merged CSVs (ready for analysis)
+
+├── logs/
+│   └── etl_pipeline.log          # Pipeline execution logs
+
 ├── scripts/
-│   ├── extract_data.py
-│   ├── transform_data.py
-│   └── load_to_postgres.py
-│
+│   ├── new/
+│   │   ├── extract_data_w_logging.py
+│   │   ├── transform_data.py
+│   │   └── load_to_postgres_w_logging.py
+│   └── utils/
+│       └── logger.py             # Custom logger setup
+
+├── pipelines/
+│   ├── pipeline_w_logging.py     # Main ETL orchestration script
+│   └── run_pipeline.py           # Entry point for running the pipeline
+
 ├── sql/
 │   ├── create_tables.sql
 │   ├── alter_tables.sql
 │   └── analysis_queries.sql
-│
-├── dashboard/            # Power BI (.pbix) file and screenshots
-│
-├── diagrams/             # ERD or architecture diagram images
-│
-├── pipeline.py           # Main orchestrator script
-└── README.md             # Project documentation
+
+├── dashboard/
+│   ├── hospital_dashboard.pbix   # Power BI dashboard file
+│   └── screenshots/              # Optional images for documentation
+
+├── diagrams/
+│   └── erd.png                   # Entity Relationship Diagram or architecture
+
+├── tests/
+│   ├── test_extract.py
+│   ├── test_transform.py
+│   ├── test_load.py
+│   └── test_integration.py
+
+├── config.yaml                   # File paths and non-sensitive configs
+├── .env                          # DB credentials (excluded from Git)
+├── .gitignore                    # Excludes .env, __pycache__, etc.
+├── requirements.txt              # Python package dependencies
+└── README.md                     # Project documentation
          
 ```
 
