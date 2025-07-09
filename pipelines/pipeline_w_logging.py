@@ -1,3 +1,6 @@
+# pipeline_w_logging.py
+# This script runs the entire ETL pipeline with logging and error handling.
+
 import os
 import yaml 
 from dotenv import load_dotenv
@@ -20,8 +23,14 @@ db_config = {
     "dbname": os.getenv("DB_NAME")
 }
 
-def run_pipeline():
-    logger = setup_logger()
+def run_pipeline(logger=None):
+    if logger is None:
+        logger = setup_logger(name="etl_logger", log_file="logs/etl_pipeline.log")
+        
+    # Ensure logs directory exists
+    os.makedirs(os.path.dirname(logger.handlers[0].baseFilename), exist_ok=True)
+    
+    # Log the start of the ETL pipeline
     logger.info("ETL pipeline started")
 
     # Load config.yaml to fetch paths and DB credentials

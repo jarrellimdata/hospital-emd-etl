@@ -1,0 +1,28 @@
+2025-07-08 18:54:45,012 - INFO - Running full pipeline integration test...
+2025-07-08 18:54:45,012 - INFO - ETL pipeline started
+2025-07-08 18:54:45,013 - INFO - Extracting attendances data from data/raw\Attendances at EMD_week24Y2025.xlsx
+2025-07-08 18:54:45,051 - INFO - Validating attendances data columns: {'Date', 'NTFGH', 'WH', 'AH', 'CGH', 'TTSH', 'SGH', 'SKH', 'KTPH', 'NUH(A)'}
+2025-07-08 18:54:45,051 - INFO - attendances schema validation passed
+2025-07-08 18:54:45,051 - INFO - attendances data shape: (889, 10)
+2025-07-08 18:54:45,052 - INFO - Extracting wait_time data from data/raw\WT for Admission to Ward_week24Y2025.xlsx
+2025-07-08 18:54:45,093 - INFO - Validating wait_time data columns: {'Date', 'NTFGH', 'WH', 'AH', 'CGH', 'TTSH', 'SGH', 'SKH', 'KTPH', 'NUH(A)'}
+2025-07-08 18:54:45,093 - INFO - wait_time schema validation passed
+2025-07-08 18:54:45,093 - INFO - wait_time data shape: (889, 10)
+2025-07-08 18:54:45,093 - INFO - Extracting bor data from data/raw\Bed Occupancy Rate_week24Y2025.xlsx
+2025-07-08 18:54:45,201 - INFO - Validating bor data columns: {'Date', 'NTFGH', 'WH', 'AH', 'CGH', 'TTSH', 'SGH', 'Years', 'KTPH', 'NUH(A)', 'SKH'}
+2025-07-08 18:54:45,201 - INFO - bor schema validation passed
+2025-07-08 18:54:45,201 - INFO - bor data shape: (2715, 11)
+2025-07-08 18:54:45,201 - INFO - Data extraction completed successfully
+2025-07-08 18:54:45,201 - INFO - Cleaning attendances data
+2025-07-08 18:54:45,210 - INFO - attendances cleaned data shape: (7462, 3)
+2025-07-08 18:54:45,210 - INFO - Cleaning wait_time data
+2025-07-08 18:54:45,216 - INFO - wait_time cleaned data shape: (7462, 3)
+2025-07-08 18:54:45,217 - INFO - Cleaning bor data
+2025-07-08 18:54:45,228 - INFO - bor cleaned data shape: (21847, 3)
+2025-07-08 18:54:45,228 - INFO - Data transformation completed successfully
+2025-07-08 18:54:45,228 - INFO - Merging datasets
+2025-07-08 18:54:45,238 - INFO - Merged data shape: (21847, 5)
+2025-07-08 18:54:45,238 - INFO - Merging completed successfully
+2025-07-08 18:54:45,322 - INFO - Cleaned data saved to processed CSV
+2025-07-08 18:54:46,210 - INFO - Data loaded into PostgreSQL successfully
+2025-07-08 18:54:46,210 - INFO - ETL pipeline completed successfully
