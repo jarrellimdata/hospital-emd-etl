@@ -144,7 +144,7 @@ Includes visuals for:
 - Created a consistent structure for trend analysis
 - Derived rolling averages and tracked key metrics
 - Built SQL queries for exploratory reporting
-- Implemented logging and both unit/integration testing for reliability
+- Implemented schema validation, logging, and both unit/integration testing for reliability
 
 ---
 
