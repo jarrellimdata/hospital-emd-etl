@@ -3,20 +3,18 @@
 ---
 
 ## 📌 Project Overview
-
-This project simulates a real-world data engineering pipeline using open hospital data from Singapore. Using Python scripts, the workflow automates the ingestion, cleaning, transformation, and loading of healthcare data into a PostgreSQL database. The data is then explored in pgAdmin4 and prepared for downstream analytics, including dashboarding in Power BI.
+This project simulates a real-world data engineering pipeline using open hospital data from Singapore. It uses Python scripts to automate the ingestion, cleaning, transformation, and loading of healthcare data into a PostgreSQL database. The cleaned data is then explored in pgAdmin4 and visualized using Power BI.
 
 ---
 
 ## 🎯 Objective
-
-To build a modular and reproducible data engineering workflow that prepares real-world hospital operations data for analysis, using industry-relevant tools such as Python, SQL, and Power BI.
+To build a modular and reproducible data engineering workflow that prepares real-world hospital operations data for analysis, using tools such as Python, SQL, and Power BI.
 
 ---
 
 ## 🏥 Business Use Case
+Support data-driven hospital operations by enabling consistent reporting on emergency department (ED) performance, capacity constraints, and service efficiency. The final dataset helps identify anomalies, bottlenecks, and system-wide pressure points for better healthcare planning and policy-making.
 
-The goal is to support data-driven hospital operations by enabling consistent reporting on emergency department (ED) performance, capacity constraints, and service efficiency. This helps surface anomalies, bottlenecks, and system-wide pressure points over time, which are critical for healthcare planning, resource allocation, and policy-making.
 
 ---
 
@@ -35,9 +33,9 @@ Each dataset contains historical monthly records, updated as of July 2025.
 ## 🧰 Tools and Technologies
 
 - **Python**: pandas, sqlalchemy
-- **PostgreSQL**: for storing processed datasets
-- **pgAdmin4**: for SQL queries and inspection
-- **Power BI**: for dashboarding and visual storytelling
+- **PostgreSQL**: for storing processed data
+- **pgAdmin4**: for database inspection and querying
+- **Power BI**: for dashboarding
 - **Jupyter Notebook / VS Code**: For development
 - **Mermaid Live Editor**: For designing Entity Relationship Diagram (ERD)
 
@@ -49,45 +47,38 @@ Each dataset contains historical monthly records, updated as of July 2025.
 hospital-emd-etl/
 ├── data/
 │   ├── raw/                      # Raw Excel files from MOH
-│   └── processed/                # Cleaned and merged CSVs (ready for analysis)
-
+│   └── processed/                # Cleaned and merged CSVs
 ├── logs/
-│   └── etl_pipeline.log          # Pipeline execution logs
-
+│   └── etl_pipeline.log          # Pipeline logs
+│   └── test_integration.log      # Integration test logs
 ├── scripts/
 │   ├── new/
 │   │   ├── extract_data_w_logging.py
 │   │   ├── transform_data.py
 │   │   └── load_to_postgres_w_logging.py
 │   └── utils/
-│       └── logger.py             # Custom logger setup
-
+│       └── logger.py             # Custom logging setup
 ├── pipelines/
-│   ├── pipeline_w_logging.py     # Main ETL orchestration script
-│   └── run_pipeline.py           # Entry point for running the pipeline
-
+│   ├── pipeline_w_logging.py     # ETL orchestration script
+│   └── run_pipeline.py           # Entry point
 ├── sql/
 │   ├── create_tables.sql
 │   ├── alter_tables.sql
 │   └── analysis_queries.sql
-
 ├── dashboard/
-│   ├── hospital_dashboard.pbix   # Power BI dashboard file
-│   └── screenshots/              # Optional images for documentation
-
+│   ├── hospital_dashboard.pbix   # Power BI dashboard
+│   └── screenshots/
 ├── diagrams/
-│   └── erd.png                   # Entity Relationship Diagram or architecture
-
+│   └── erd.png                   # Entity Relationship Diagram
 ├── tests/
 │   ├── test_extract.py
 │   ├── test_transform.py
 │   ├── test_load.py
 │   └── test_integration.py
-
-├── config.yaml                   # File paths and non-sensitive configs
+├── config.yaml                   # Configs
 ├── .env                          # DB credentials (excluded from Git)
-├── .gitignore                    # Excludes .env, __pycache__, etc.
-├── requirements.txt              # Python package dependencies
+├── .gitignore                    # Ignored files
+├── requirements.txt              # Python dependencies
 └── README.md                     # Project documentation
          
 ```
@@ -96,10 +87,11 @@ hospital-emd-etl/
 
 ## ▶️ How to Run the Project
 
-1. Make sure PostgreSQL is installed and running locally.
-2. Update the database credentials in `load_to_postgres.py` if needed.
-3. Place the raw Excel files inside the `data/raw` folder.
+1. Ensure PostgreSQL is installed and running locally.
+2. Update DB credentials in .env or directly in the script.
+3. Download and place raw Excel files in data/raw/
 4. Run the ETL pipeline:
+
 
 ```bash
 python pipeline.py
@@ -108,22 +100,22 @@ python pipeline.py
 ---
 
 ## 🧮 PostgreSQL Tables
-- attendances: Monthly patient counts per hospital
-- wait_times: Median wait time to be admitted to ward
-- bed_occupancy: Monthly bed occupancy percentage
-- er_summary: Combined view of all three datasets
+- attendances: Monthly patient counts
+- wait_times: Median wait time to admission
+- bed_occupancy: Bed occupancy rate
+- er_summary: Combined view for analysis
 
 ---
 
 ## 🧾 SQL Utilities
-- create_tables.sql: Defines the base tables
-- alter_tables.sql: Refines data types (e.g., round float → int or decimal)
-- analysis_queries.sql: Sample queries to analyze trends and correlations
+- create_tables.sql: Defines and creates the base tables
+- alter_tables.sql: Round/cast columns for easier analysis in PostgreSQL
+- analysis_queries.sql: Sample queries to analyze trends
 
 ---
 
 ## 🗺️ Data Model
-Four tables in PostgreSQL are linked by date and hospital. The main table for analysis is er_summary.
+All tables are linked by date and hospital. The primary table for reporting is er_summary.
 
 📎 Entity Relationship Diagram (ERD)
 - Created using [Mermaid Live Editor](https://mermaid.live) and exported as an image:
@@ -132,13 +124,13 @@ Four tables in PostgreSQL are linked by date and hospital. The main table for an
 ---
 
 ## 📊 Power BI Dashboard
-This project includes a Power BI dashboard visualizing:
+Includes visuals for:
 - Monthly trends by hospital
-- Efficiency metrics like average wait time
+- Median wait time
 - Rolling 3-month averages
 - Correlation analysis between variables
 
-📎 Note: As the focus of this project is on data engineering, the Power BI dashboard included is intentionally simple. It can be further developed based on business questions, stakeholder needs, and integration of more domain-specific data.
+📎 Note: The dashboard is intentionally simple to highlight the data pipeline. It can be extended based on stakeholder needs.
 
 **Snapshot:** 
 ![image](https://github.com/user-attachments/assets/19cfc0c5-fd45-480d-b0e3-0476aa234d11)
@@ -149,34 +141,33 @@ This project includes a Power BI dashboard visualizing:
 
 ## 📈 Results / Findings
 - Cleaned and merged >20,000 rows of hospital data
-- Structured datasets for consistent monthly trend analysis
-- Derived metrics like rolling 3-month averages, wait time trends, and correlation between occupancy and wait time
-- Built SQL queries for downstream exploration and reporting
+- Created a consistent structure for trend analysis
+- Derived rolling averages and tracked key metrics
+- Built SQL queries for exploratory reporting
+- Implemented logging and both unit/integration testing for reliability
 
 ---
 
 ## 🚧 Limitations
-- Manual download of Excel files (no APIs available)
-- No real-time processing or orchestration (designed for local batch runs)
-- Dashboard and analysis rely on simplified metrics due to limited context
+- Manual data download (no API access)
+- Local batch pipeline (no orchestration yet)
+- Simplified dashboard due to limited context
 
 ---
 
 ## 🚀 Next Steps / Future Work
 ⚙️ Data Engineering & Deployment
-- Enhance data validation and switch from print statements to structured logging
 - Containerize the pipeline using Docker
 - Add Airflow orchestration for automated scheduling
 - Explore cloud deployment (e.g. Azure, AWS)
 
 📊 Analytics & Power BI
-- Integrate anomaly detection and additional KPIs
-- Explore hospital cluster-level metrics
-- Improve dashboard visuals and interactivity
-- Document key DAX measures used
+- Add anomaly detection and KPIs
+- Enhance visual design in Power BI
+- Document DAX measures
 
 🧠 Stakeholder Collaboration
-- Consult healthcare domain experts to refine metrics and identify actionable insights
+- Collaborate with healthcare domain experts for deeper insights
 
 ---
 
@@ -188,6 +179,6 @@ This project includes a Power BI dashboard visualizing:
 
 ---
 ## Acknowledgments:
-This project was built as part of a personal portfolio to demonstrate skills in data engineering and healthcare analytics using open datasets.
+Built as a personal portfolio project to demonstrate skills in data engineering, SQL, and healthcare analytics using public data.
 
 
